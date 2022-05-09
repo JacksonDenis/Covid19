@@ -2,7 +2,7 @@ import React,  {memo, useState, useCallback, useEffect} from "react";
 import Api from '../../api';
 import Board from './Components/Board';
 import Panel from './Components/Panel';
-import {containerStyled} from './style'
+import { ContainerStyled } from './style'
 
 function Main() {
     const [data,setData] = useState({})
